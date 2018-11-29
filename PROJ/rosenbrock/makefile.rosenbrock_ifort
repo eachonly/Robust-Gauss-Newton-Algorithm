@@ -1,0 +1,20 @@
+# makefile: calibrate Rosenbrock demo with RGN
+# reference calibration results for rosenbrock demo is in 'rgnLog_ref.txt'
+# to compile using makefile with ifort
+# 1) make -f makefile.rosenbrock_ifort
+# 2) ./rosenbrock_demo.exe
+# to remove intermediate files
+# 1) make -f makefile.rosenbrock_ifort clean
+FC= ifort
+objects= constantsMod.o rgn.o rgnMain_Rosenbrock.o
+rosenbrock_demo.exe: $(objects)
+	$(FC) $(objects) -o rosenbrock_demo.exe
+constantsMod.o: ../../SRC_RGN/constantsMod.f90
+	$(FC) -c ../../SRC_RGN/constantsMod.f90
+rgn.o: ../../SRC_RGN/rgn.f90
+	$(FC) -c ../../SRC_RGN/rgn.f90
+rgnMain_Rosenbrock.o: ../../SRC_DEMO/rosenbrock/rgnMain_Rosenbrock.f90
+	$(FC) -c ../../SRC_DEMO/rosenbrock/rgnMain_Rosenbrock.f90
+clean:
+	rm -f *.o
+	rm -f *.mod

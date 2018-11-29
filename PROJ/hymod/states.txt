@@ -1,0 +1,9 @@
+8
+ "initial storage of soil moister tank"											100.0					
+ "initial storage of the slow flow tank"										30.0				
+ "initial storage of the first quick flow tank"									27.0
+ "initial storage of the second quick flow tank"								25.0
+ "initial storage of the third quick flow tank"									30.0
+ "intial slow flow (not necessary)"												0.0
+ "intial quick flow (not necessary)"											0.0
+ "intial total flow (not necessary)"											0.0

@@ -1,0 +1,1304 @@
+-----------------------------------------
+Iteration No.=                     1
+ObjFun Calls=                      1
+ObjFun Value f=                    16245.91    
+Parameter set=                     400.0000      0.5000000      0.1000000      0.2000000      0.1000000    
+Bound Index=                       0              0              0              0              0
+Sampling Scale h=                  499.5000      0.9500000      0.4500000      0.4999945      0.4999945    
+Forward Jacoian sample point:      899.5000      0.5000000      0.1000000      0.2000000      0.1000000    
+Backward Jacobian sample Point:    1.000000      0.5000000      0.1000000      0.2000000      0.1000000    
+Jacobian matrix column:            1   19769.70       27215.62    
+Forward Jacoian sample point:      400.0000       1.450000      0.1000000      0.2000000      0.1000000    
+Backward Jacobian sample Point:    400.0000      0.1000000      0.1000000      0.2000000      0.1000000    
+Jacobian matrix column:            2   14515.33       19626.65    
+Forward Jacoian sample point:      400.0000      0.5000000      0.5500000      0.2000000      0.1000000    
+Backward Jacobian sample Point:    400.0000      0.5000000      0.5000000E-01  0.2000000      0.1000000    
+Jacobian matrix column:            3   18278.55       16048.50    
+Forward Jacoian sample point:      400.0000      0.5000000      0.1000000      0.6999945      0.1000000    
+Backward Jacobian sample Point:    400.0000      0.5000000      0.1000000      0.1000000E-05  0.1000000    
+Jacobian matrix column:            4   12943.54       23809.65    
+Forward Jacoian sample point:      400.0000      0.5000000      0.1000000      0.2000000      0.5999945    
+Backward Jacobian sample Point:    400.0000      0.5000000      0.1000000      0.2000000      0.1000000E-05
+Jacobian matrix column:            5   16085.02       16435.63    
+Best objective function value f=   12943.54    
+Best parameter x=                  400.0000      0.5000000      0.1000000      0.6999945      0.1000000    
+Gradient g at parameter x=          20.44054      -3485.831       4005.180      -13486.10      -576.1435    
+Hessian at x=                      0.8172033E-01
+                                   -9.579987       1697.031    
+                                    6.434780      -944.1941       2274.621    
+                                   -26.43132       4013.269      -3513.286       16472.14    
+                                   -2.889323       447.9919      -305.6944       1081.920       204.3654    
+Active set=                        0              0              0              0              0
+Truncated SV=                      18395.65       1454.931       719.1159       78.51693      0.2416077E-01
+SVD delX=                          32.73899       1.492622     -0.8972493      0.6189312      -4.608725    
+Projected delX=                    32.73899       1.492622     -0.5000000E-01  0.6189312     -0.9999900E-01
+Projected xp=                      432.7390       1.992622      0.5000000E-01  0.8189312      0.1000000E-05
+Cons=                              -1.302344    
+xt=                                432.7390       1.992622      0.5000000E-01  0.8189312      0.1000000E-05
+ft=                                10229.50    
+ft+sig=                            10228.19    
+Line search successful at iteration   0 with sigma=   1.000000    
+-----------------------------------------
+Iteration No.=                     2
+ObjFun Calls=                     12
+ObjFun Value f=                    10229.50    
+Parameter set=                     432.7390       1.992622      0.5000000E-01  0.8189312      0.1000000E-05
+Bound Index=                       0              0              0              0              0
+Sampling Scale h=                  499.5000      0.9500000      0.4500000      0.4999945      0.4999945    
+Forward Jacoian sample point:      932.2390       1.992622      0.5000000E-01  0.8189312      0.1000000E-05
+Backward Jacobian sample Point:    1.000000       1.992622      0.5000000E-01  0.8189312      0.1000000E-05
+Jacobian matrix column:            1   14800.07       51103.73    
+Forward Jacoian sample point:      432.7390       2.000000      0.5000000E-01  0.8189312      0.1000000E-05
+Backward Jacobian sample Point:    432.7390       1.042622      0.5000000E-01  0.8189312      0.1000000E-05
+Jacobian matrix column:            2   10225.11       11242.46    
+Forward Jacoian sample point:      432.7390       1.992622      0.5000000      0.8189312      0.1000000E-05
+Backward Jacobian sample Point:    432.7390       1.992622      0.5000000E-01  0.8189312      0.1000000E-05
+Jacobian matrix column:            3   15018.37       10229.50    
+Forward Jacoian sample point:      432.7390       1.992622      0.5000000E-01  0.9999900      0.1000000E-05
+Backward Jacobian sample Point:    432.7390       1.992622      0.5000000E-01  0.3189367      0.1000000E-05
+Jacobian matrix column:            4   10032.46       12837.32    
+Forward Jacoian sample point:      432.7390       1.992622      0.5000000E-01  0.8189312      0.4999955    
+Backward Jacobian sample Point:    432.7390       1.992622      0.5000000E-01  0.8189312      0.1000000E-05
+Jacobian matrix column:            5   10017.48       10229.50    
+Best objective function value f=   10017.48    
+Best parameter x=                  432.7390       1.992622      0.5000000E-01  0.8189312      0.4999955    
+Gradient g at parameter x=          14.96091      -959.2757       6802.611      -2140.330      -450.3746    
+Hessian at x=                      0.1473669    
+                                   -4.386746       217.9863    
+                                    0.000000       0.000000       17063.67    
+                                   -20.35696       776.1958       0.000000       10232.32    
+                                    0.000000       0.000000       0.000000       0.000000       105.3647    
+Active set=                        0              0              1              0              0
+Truncated SV=                      10292.16       158.2316      0.5606601E-01   105.3647    
+SVD delX=                          63.02318       6.134650       0.000000     -0.1308012       4.274434    
+Projected delX=                    63.02318      0.7377583E-02   0.000000     -0.1308012      0.9999890    
+Projected xp=                      495.7622       2.000000      0.5000000E-01  0.6881300      0.9999900    
+Cons=                               0.000000    
+xt=                                495.7622       2.000000      0.5000000E-01  0.6881300      0.9999900    
+ft=                                11088.54    
+ft+sig=                            11088.54    
+xt=                                470.5529       1.997049      0.5000000E-01  0.7404505      0.5999944    
+ft=                                10647.44    
+ft+sig=                            10647.44    
+xt=                                455.4273       1.995278      0.5000000E-01  0.7718428      0.3599970    
+ft=                                10431.29    
+ft+sig=                            10431.29    
+xt=                                446.3520       1.994216      0.5000000E-01  0.7906781      0.2159986    
+ft=                                10321.38    
+ft+sig=                            10321.38    
+xt=                                440.9068       1.993579      0.5000000E-01  0.8019794      0.1295996    
+ft=                                10261.06    
+ft+sig=                            10261.06    
+Line search failed
+-----------------------------------------
+Iteration No.=                     3
+ObjFun Calls=                     27
+ObjFun Value f=                    10017.48    
+Parameter set=                     432.7390       1.992622      0.5000000E-01  0.8189312      0.4999955    
+Bound Index=                       0              0              0              0              0
+Sampling Scale h=                  499.5000      0.9500000      0.4500000      0.4999945      0.4999945    
+Forward Jacoian sample point:      932.2390       1.992622      0.5000000E-01  0.8189312      0.4999955    
+Backward Jacobian sample Point:    1.000000       1.992622      0.5000000E-01  0.8189312      0.4999955    
+Jacobian matrix column:            1   14605.08       52528.13    
+Forward Jacoian sample point:      432.7390       2.000000      0.5000000E-01  0.8189312      0.4999955    
+Backward Jacobian sample Point:    432.7390       1.042622      0.5000000E-01  0.8189312      0.4999955    
+Jacobian matrix column:            2   10013.12       11027.66    
+Forward Jacoian sample point:      432.7390       1.992622      0.5000000      0.8189312      0.4999955    
+Backward Jacobian sample Point:    432.7390       1.992622      0.5000000E-01  0.8189312      0.4999955    
+Jacobian matrix column:            3   12444.96       10017.48    
+Forward Jacoian sample point:      432.7390       1.992622      0.5000000E-01  0.9999900      0.4999955    
+Backward Jacobian sample Point:    432.7390       1.992622      0.5000000E-01  0.3189367      0.4999955    
+Jacobian matrix column:            4   9808.431       12700.36    
+Forward Jacoian sample point:      432.7390       1.992622      0.5000000E-01  0.8189312      0.9999900    
+Backward Jacobian sample Point:    432.7390       1.992622      0.5000000E-01  0.8189312      0.1000000E-05
+Jacobian matrix column:            5   9966.415       10229.50    
+Best objective function value f=   9808.431    
+Best parameter x=                  432.7390       1.992622      0.5000000E-01  0.9999900      0.4999955    
+Gradient g at parameter x=          14.75368      -951.6752       2460.696      -2268.179      -261.8403    
+Hessian at x=                      0.1519515    
+                                   -4.561314       227.8173    
+                                    0.000000       0.000000       13038.69    
+                                   -20.03917       762.8970       0.000000       10232.32    
+                                  -0.9835060       51.24114       0.000000      -212.0756       47.36261    
+Active set=                        0              0              1              0              0
+Truncated SV=                      10294.40       198.9540       14.23600      0.5535393E-01
+SVD delX=                          67.76905       5.437791       0.000000     -0.3221400E-01  0.9083361    
+Projected delX=                    67.76905      0.7377583E-02   0.000000     -0.3221400E-01  0.4999945    
+Projected xp=                      500.5080       2.000000      0.5000000E-01  0.7867172      0.9999900    
+Cons=                               0.000000    
+xt=                                500.5080       2.000000      0.5000000E-01  0.7867172      0.9999900    
+ft=                                10849.12    
+ft+sig=                            10849.12    
+xt=                                473.4004       1.997049      0.5000000E-01  0.7996028      0.7999922    
+ft=                                10512.15    
+ft+sig=                            10512.15    
+xt=                                457.1358       1.995278      0.5000000E-01  0.8073342      0.6799935    
+ft=                                10310.39    
+ft+sig=                            10310.39    
+xt=                                447.3771       1.994216      0.5000000E-01  0.8119730      0.6079943    
+ft=                                10191.35    
+ft+sig=                            10191.35    
+xt=                                441.5219       1.993579      0.5000000E-01  0.8147563      0.5647948    
+ft=                                10121.06    
+ft+sig=                            10121.06    
+Line search failed
+-----------------------------------------
+Iteration No.=                     4
+ObjFun Calls=                     42
+ObjFun Value f=                    9808.431    
+Parameter set=                     432.7390       1.992622      0.5000000E-01  0.9999900      0.4999955    
+Bound Index=                       0              0              0              0              0
+Sampling Scale h=                  499.5000      0.9500000      0.4500000      0.4999945      0.4999945    
+Forward Jacoian sample point:      932.2390       1.992622      0.5000000E-01  0.9999900      0.4999955    
+Backward Jacobian sample Point:    1.000000       1.992622      0.5000000E-01  0.9999900      0.4999955    
+Jacobian matrix column:            1   14323.04       61273.79    
+Forward Jacoian sample point:      432.7390       2.000000      0.5000000E-01  0.9999900      0.4999955    
+Backward Jacobian sample Point:    432.7390       1.042622      0.5000000E-01  0.9999900      0.4999955    
+Jacobian matrix column:            2   9804.297       10778.50    
+Forward Jacoian sample point:      432.7390       1.992622      0.5000000      0.9999900      0.4999955    
+Backward Jacobian sample Point:    432.7390       1.992622      0.5000000E-01  0.9999900      0.4999955    
+Jacobian matrix column:            3   12065.65       9808.431    
+Forward Jacoian sample point:      432.7390       1.992622      0.5000000E-01  0.9999900      0.4999955    
+Backward Jacobian sample Point:    432.7390       1.992622      0.5000000E-01  0.4999955      0.4999955    
+Jacobian matrix column:            4   9808.431       11229.45    
+Forward Jacoian sample point:      432.7390       1.992622      0.5000000E-01  0.9999900      0.9999900    
+Backward Jacobian sample Point:    432.7390       1.992622      0.5000000E-01  0.9999900      0.1000000E-05
+Jacobian matrix column:            5   9716.803       10032.46    
+Best objective function value f=   9716.803    
+Best parameter x=                  432.7390       1.992622      0.5000000E-01  0.9999900      0.9999900    
+Gradient g at parameter x=          12.84652      -898.5397       1543.772      -375.4699      -314.4167    
+Hessian at x=                      0.1723098    
+                                   -5.064841       251.0462    
+                                    0.000000       0.000000       15432.33    
+                                    0.000000       0.000000       0.000000       9866.538    
+                                  -0.8415934       45.58259       0.000000       0.000000       47.36261    
+Active set=                        0              0              1              3              0
+Truncated SV=                      260.8828       37.62844      0.6994136E-01
+SVD delX=                          71.16459       4.338017       0.000000       0.000000       3.728051    
+Projected delX=                    71.16459      0.7377583E-02   0.000000       0.000000      0.4999945    
+Projected xp=                      503.9036       2.000000      0.5000000E-01  0.9999900      0.9999900    
+Cons=                               0.000000    
+xt=                                503.9036       2.000000      0.5000000E-01  0.9999900      0.9999900    
+ft=                                10537.01    
+ft+sig=                            10537.01    
+xt=                                475.4377       1.997049      0.5000000E-01  0.9999900      0.7999922    
+ft=                                10244.03    
+ft+sig=                            10244.03    
+xt=                                458.3582       1.995278      0.5000000E-01  0.9999900      0.6799935    
+ft=                                10067.21    
+ft+sig=                            10067.21    
+xt=                                448.1105       1.994216      0.5000000E-01  0.9999900      0.6079943    
+ft=                                9962.374    
+ft+sig=                            9962.374    
+xt=                                441.9619       1.993579      0.5000000E-01  0.9999900      0.5647948    
+ft=                                9900.264    
+ft+sig=                            9900.264    
+Line search failed
+-----------------------------------------
+Iteration No.=                     5
+ObjFun Calls=                     57
+ObjFun Value f=                    9716.803    
+Parameter set=                     432.7390       1.992622      0.5000000E-01  0.9999900      0.9999900    
+Bound Index=                       0              0              0              0              0
+Sampling Scale h=                  499.5000      0.9500000      0.4500000      0.4999945      0.4999945    
+Forward Jacoian sample point:      932.2390       1.992622      0.5000000E-01  0.9999900      0.9999900    
+Backward Jacobian sample Point:    1.000000       1.992622      0.5000000E-01  0.9999900      0.9999900    
+Jacobian matrix column:            1   14253.41       61851.36    
+Forward Jacoian sample point:      432.7390       2.000000      0.5000000E-01  0.9999900      0.9999900    
+Backward Jacobian sample Point:    432.7390       1.042622      0.5000000E-01  0.9999900      0.9999900    
+Jacobian matrix column:            2   9712.664       10689.27    
+Forward Jacoian sample point:      432.7390       1.992622      0.5000000      0.9999900      0.9999900    
+Backward Jacobian sample Point:    432.7390       1.992622      0.5000000E-01  0.9999900      0.9999900    
+Jacobian matrix column:            3   11780.99       9716.803    
+Forward Jacoian sample point:      432.7390       1.992622      0.5000000E-01  0.9999900      0.9999900    
+Backward Jacobian sample Point:    432.7390       1.992622      0.5000000E-01  0.4999955      0.9999900    
+Jacobian matrix column:            4   9716.803       11223.07    
+Forward Jacoian sample point:      432.7390       1.992622      0.5000000E-01  0.9999900      0.9999900    
+Backward Jacobian sample Point:    432.7390       1.992622      0.5000000E-01  0.9999900      0.4999955    
+Jacobian matrix column:            5   9716.803       9808.431    
+Best objective function value f=   9712.664    
+Best parameter x=                  432.7390       2.000000      0.5000000E-01  0.9999900      0.9999900    
+Gradient g at parameter x=          12.84714      -899.8218      -148.4156      -545.9679      -159.4035    
+Hessian at x=                      0.1741765    
+                                   -5.121460       253.6237    
+                                    0.000000       0.000000       21046.61    
+                                    0.000000       0.000000       0.000000       9866.538    
+                                    0.000000       0.000000       0.000000       0.000000       95.41323    
+Active set=                        0              0              0              3              3
+Truncated SV=                      253.7272      0.7072932E-01   21046.61    
+SVD delX=                          75.22938       5.066979      0.7051759E-02   0.000000       0.000000    
+Projected delX=                    75.22938      0.7377583E-02  0.7051759E-02   0.000000       0.000000    
+Projected xp=                      507.9684       2.000000      0.5705176E-01  0.9999900      0.9999900    
+Cons=                               0.000000    
+xt=                                507.9684       2.000000      0.5705176E-01  0.9999900      0.9999900    
+ft=                                10586.52    
+ft+sig=                            10586.52    
+xt=                                477.8766       1.997049      0.5423106E-01  0.9999900      0.9999900    
+ft=                                10243.70    
+ft+sig=                            10243.70    
+xt=                                459.8216       1.995278      0.5253863E-01  0.9999900      0.9999900    
+ft=                                10034.44    
+ft+sig=                            10034.44    
+xt=                                448.9885       1.994216      0.5152318E-01  0.9999900      0.9999900    
+ft=                                9907.831    
+ft+sig=                            9907.831    
+xt=                                442.4887       1.993579      0.5091391E-01  0.9999900      0.9999900    
+ft=                                9831.562    
+ft+sig=                            9831.562    
+Line search failed
+-----------------------------------------
+Iteration No.=                     6
+ObjFun Calls=                     72
+ObjFun Value f=                    9712.664    
+Parameter set=                     432.7390       2.000000      0.5000000E-01  0.9999900      0.9999900    
+Bound Index=                       0              0              0              0              0
+Sampling Scale h=                  499.5000      0.9500000      0.4500000      0.4999945      0.4999945    
+Forward Jacoian sample point:      932.2390       2.000000      0.5000000E-01  0.9999900      0.9999900    
+Backward Jacobian sample Point:    1.000000       2.000000      0.5000000E-01  0.9999900      0.9999900    
+Jacobian matrix column:            1   14247.31       61851.49    
+Forward Jacoian sample point:      432.7390       2.000000      0.5000000E-01  0.9999900      0.9999900    
+Backward Jacobian sample Point:    432.7390       1.050000      0.5000000E-01  0.9999900      0.9999900    
+Jacobian matrix column:            2   9712.664       10675.74    
+Forward Jacoian sample point:      432.7390       2.000000      0.5000000      0.9999900      0.9999900    
+Backward Jacobian sample Point:    432.7390       2.000000      0.5000000E-01  0.9999900      0.9999900    
+Jacobian matrix column:            3   11777.09       9712.664    
+Forward Jacoian sample point:      432.7390       2.000000      0.5000000E-01  0.9999900      0.9999900    
+Backward Jacobian sample Point:    432.7390       2.000000      0.5000000E-01  0.4999955      0.9999900    
+Jacobian matrix column:            4   9712.664       11218.79    
+Forward Jacoian sample point:      432.7390       2.000000      0.5000000E-01  0.9999900      0.9999900    
+Backward Jacobian sample Point:    432.7390       2.000000      0.5000000E-01  0.9999900      0.4999955    
+Jacobian matrix column:            5   9712.664       9804.297    
+Best objective function value f=   9712.664    
+Best parameter x=                  432.7390       2.000000      0.5000000E-01  0.9999900      0.9999900    
+Gradient g at parameter x=          12.82144      -894.4626      -152.2564      -543.3793      -159.3913    
+Hessian at x=                      0.1741352    
+                                    0.000000       251.1530    
+                                    0.000000       0.000000       21066.09    
+                                    0.000000       0.000000       0.000000       9875.692    
+                                    0.000000       0.000000       0.000000       0.000000       95.50282    
+Active set=                        0              3              0              3              3
+Truncated SV=                     0.1741352       21066.09    
+SVD delX=                         -73.62923       0.000000      0.7227559E-02   0.000000       0.000000    
+Projected delX=                   -73.62923       0.000000      0.7227559E-02   0.000000       0.000000    
+Projected xp=                      359.1098       2.000000      0.5722756E-01  0.9999900      0.9999900    
+Cons=                             -0.9451333E-01
+xt=                                359.1098       2.000000      0.5722756E-01  0.9999900      0.9999900    
+ft=                                8828.756    
+ft+sig=                            8828.662    
+Line search successful at iteration   0 with sigma=   1.000000    
+-----------------------------------------
+Iteration No.=                     7
+ObjFun Calls=                     83
+ObjFun Value f=                    8828.756    
+Parameter set=                     359.1098       2.000000      0.5722756E-01  0.9999900      0.9999900    
+Bound Index=                       0              0              0              0              0
+Sampling Scale h=                  499.5000      0.9500000      0.4500000      0.4999945      0.4999945    
+Forward Jacoian sample point:      858.6098       2.000000      0.5722756E-01  0.9999900      0.9999900    
+Backward Jacobian sample Point:    1.000000       2.000000      0.5722756E-01  0.9999900      0.9999900    
+Jacobian matrix column:            1   13768.83       61110.21    
+Forward Jacoian sample point:      359.1098       2.000000      0.5722756E-01  0.9999900      0.9999900    
+Backward Jacobian sample Point:    359.1098       1.050000      0.5722756E-01  0.9999900      0.9999900    
+Jacobian matrix column:            2   8828.756       9571.524    
+Forward Jacoian sample point:      359.1098       2.000000      0.5072276      0.9999900      0.9999900    
+Backward Jacobian sample Point:    359.1098       2.000000      0.5000000E-01  0.9999900      0.9999900    
+Jacobian matrix column:            3   11029.18       8835.657    
+Forward Jacoian sample point:      359.1098       2.000000      0.5722756E-01  0.9999900      0.9999900    
+Backward Jacobian sample Point:    359.1098       2.000000      0.5722756E-01  0.4999955      0.9999900    
+Jacobian matrix column:            4   8828.756       10334.16    
+Forward Jacoian sample point:      359.1098       2.000000      0.5722756E-01  0.9999900      0.9999900    
+Backward Jacobian sample Point:    359.1098       2.000000      0.5722756E-01  0.9999900      0.4999955    
+Jacobian matrix column:            5   8828.756       8932.678    
+Best objective function value f=   8828.756    
+Best parameter x=                  359.1098       2.000000      0.5722756E-01  0.9999900      0.9999900    
+Gradient g at parameter x=          8.955052      -668.1396      -862.4351      -57.31400      -169.7370    
+Hessian at x=                      0.1995798    
+                                    0.000000       239.4134    
+                                    31.19985       0.000000       25565.66    
+                                    0.000000       0.000000       0.000000       11814.20    
+                                    0.000000       0.000000       0.000000       0.000000       152.4382    
+Active set=                        0              3              0              3              3
+Truncated SV=                      25565.69      0.1615038    
+SVD delX=                         -61.96471       0.000000      0.1093547       0.000000       0.000000    
+Projected delX=                   -61.96471       0.000000      0.1093547       0.000000       0.000000    
+Projected xp=                      297.1451       2.000000      0.1665823      0.9999900      0.9999900    
+Cons=                             -0.6492085E-01
+xt=                                297.1451       2.000000      0.1665823      0.9999900      0.9999900    
+ft=                                8106.983    
+ft+sig=                            8106.918    
+Line search successful at iteration   0 with sigma=   1.000000    
+-----------------------------------------
+Iteration No.=                     8
+ObjFun Calls=                     94
+ObjFun Value f=                    8106.983    
+Parameter set=                     297.1451       2.000000      0.1665823      0.9999900      0.9999900    
+Bound Index=                       0              0              0              0              0
+Sampling Scale h=                  499.5000      0.9500000      0.4500000      0.4999945      0.4999945    
+Forward Jacoian sample point:      796.6451       2.000000      0.1665823      0.9999900      0.9999900    
+Backward Jacobian sample Point:    1.000000       2.000000      0.1665823      0.9999900      0.9999900    
+Jacobian matrix column:            1   13551.67       51750.40    
+Forward Jacoian sample point:      297.1451       2.000000      0.1665823      0.9999900      0.9999900    
+Backward Jacobian sample Point:    297.1451       1.050000      0.1665823      0.9999900      0.9999900    
+Jacobian matrix column:            2   8106.983       8660.284    
+Forward Jacoian sample point:      297.1451       2.000000      0.6165823      0.9999900      0.9999900    
+Backward Jacobian sample Point:    297.1451       2.000000      0.5000000E-01  0.9999900      0.9999900    
+Jacobian matrix column:            3   11839.70       8146.812    
+Forward Jacoian sample point:      297.1451       2.000000      0.1665823      0.9999900      0.9999900    
+Backward Jacobian sample Point:    297.1451       2.000000      0.1665823      0.4999955      0.9999900    
+Jacobian matrix column:            4   8106.983       10128.24    
+Forward Jacoian sample point:      297.1451       2.000000      0.1665823      0.9999900      0.9999900    
+Backward Jacobian sample Point:    297.1451       2.000000      0.1665823      0.9999900      0.4999955    
+Jacobian matrix column:            5   8106.983       8327.420    
+Best objective function value f=   8106.983    
+Best parameter x=                  297.1451       2.000000      0.1665823      0.9999900      0.9999900    
+Gradient g at parameter x=          7.782393      -487.8245       1435.460      -1287.654      -54.08336    
+Hessian at x=                      0.1992587    
+                                    0.000000       199.1514    
+                                    27.93442       0.000000       30486.50    
+                                    0.000000       0.000000       0.000000       11019.73    
+                                    0.000000       0.000000       0.000000       0.000000       1547.200    
+Active set=                        0              3              0              3              3
+Truncated SV=                      30486.52      0.1736626    
+SVD delX=                         -37.23940       0.000000     -0.1296307E-01   0.000000       0.000000    
+Projected delX=                   -37.23940       0.000000     -0.1296307E-01   0.000000       0.000000    
+Projected xp=                      259.9056       2.000000      0.1536192      0.9999900      0.9999900    
+Cons=                             -0.3084196E-01
+xt=                                259.9056       2.000000      0.1536192      0.9999900      0.9999900    
+ft=                                7686.705    
+ft+sig=                            7686.674    
+Line search successful at iteration   0 with sigma=   1.000000    
+-----------------------------------------
+Iteration No.=                     9
+ObjFun Calls=                    105
+ObjFun Value f=                    7686.705    
+Parameter set=                     259.9056       2.000000      0.1536192      0.9999900      0.9999900    
+Bound Index=                       0              0              0              0              0
+Sampling Scale h=                  499.5000      0.9500000      0.4500000      0.4999945      0.4999945    
+Forward Jacoian sample point:      759.4056       2.000000      0.1536192      0.9999900      0.9999900    
+Backward Jacobian sample Point:    1.000000       2.000000      0.1536192      0.9999900      0.9999900    
+Jacobian matrix column:            1   13220.00       52678.02    
+Forward Jacoian sample point:      259.9056       2.000000      0.1536192      0.9999900      0.9999900    
+Backward Jacobian sample Point:    259.9056       1.050000      0.1536192      0.9999900      0.9999900    
+Jacobian matrix column:            2   7686.705       8039.770    
+Forward Jacoian sample point:      259.9056       2.000000      0.6036192      0.9999900      0.9999900    
+Backward Jacobian sample Point:    259.9056       2.000000      0.5000000E-01  0.9999900      0.9999900    
+Jacobian matrix column:            3   11396.28       7811.255    
+Forward Jacoian sample point:      259.9056       2.000000      0.1536192      0.9999900      0.9999900    
+Backward Jacobian sample Point:    259.9056       2.000000      0.1536192      0.4999955      0.9999900    
+Jacobian matrix column:            4   7686.705       9660.910    
+Forward Jacoian sample point:      259.9056       2.000000      0.1536192      0.9999900      0.9999900    
+Backward Jacobian sample Point:    259.9056       2.000000      0.1536192      0.9999900      0.4999955    
+Jacobian matrix column:            5   7686.705       7877.224    
+Best objective function value f=   7686.705    
+Best parameter x=                  259.9056       2.000000      0.1536192      0.9999900      0.9999900    
+Gradient g at parameter x=          4.275256      -283.4016       565.8923      -766.2907      -11.61762    
+Hessian at x=                      0.2198265    
+                                    0.000000       185.7808    
+                                    31.90985       0.000000       34122.72    
+                                    0.000000       0.000000       0.000000       12728.79    
+                                    0.000000       0.000000       0.000000       0.000000       1477.711    
+Active set=                        0              3              0              3              3
+Truncated SV=                      34122.75      0.1899859    
+SVD delX=                         -19.71756       0.000000      0.1854838E-02   0.000000       0.000000    
+Projected delX=                   -19.71756       0.000000      0.1854838E-02   0.000000       0.000000    
+Projected xp=                      240.1881       2.000000      0.1554740      0.9999900      0.9999900    
+Cons=                             -0.8324799E-02
+xt=                                240.1881       2.000000      0.1554740      0.9999900      0.9999900    
+ft=                                7510.212    
+ft+sig=                            7510.204    
+Line search successful at iteration   0 with sigma=   1.000000    
+-----------------------------------------
+Iteration No.=                    10
+ObjFun Calls=                    116
+ObjFun Value f=                    7510.212    
+Parameter set=                     240.1881       2.000000      0.1554740      0.9999900      0.9999900    
+Bound Index=                       0              0              0              0              0
+Sampling Scale h=                  499.5000      0.9500000      0.4500000      0.4999945      0.4999945    
+Forward Jacoian sample point:      739.6881       2.000000      0.1554740      0.9999900      0.9999900    
+Backward Jacobian sample Point:    1.000000       2.000000      0.1554740      0.9999900      0.9999900    
+Jacobian matrix column:            1   13061.58       52542.29    
+Forward Jacoian sample point:      240.1881       2.000000      0.1554740      0.9999900      0.9999900    
+Backward Jacobian sample Point:    240.1881       1.050000      0.1554740      0.9999900      0.9999900    
+Jacobian matrix column:            2   7510.212       7752.140    
+Forward Jacoian sample point:      240.1881       2.000000      0.6054740      0.9999900      0.9999900    
+Backward Jacobian sample Point:    240.1881       2.000000      0.5000000E-01  0.9999900      0.9999900    
+Jacobian matrix column:            3   11333.04       7677.946    
+Forward Jacoian sample point:      240.1881       2.000000      0.1554740      0.9999900      0.9999900    
+Backward Jacobian sample Point:    240.1881       2.000000      0.1554740      0.4999955      0.9999900    
+Jacobian matrix column:            4   7510.212       9494.025    
+Forward Jacoian sample point:      240.1881       2.000000      0.1554740      0.9999900      0.9999900    
+Backward Jacobian sample Point:    240.1881       2.000000      0.1554740      0.9999900      0.4999955    
+Jacobian matrix column:            5   7510.212       7686.118    
+Best objective function value f=   7510.212    
+Best parameter x=                  240.1881       2.000000      0.1554740      0.9999900      0.9999900    
+Gradient g at parameter x=          2.319145      -170.4912       324.7490      -594.8749       51.70195    
+Hessian at x=                      0.2296477    
+                                    0.000000       177.1998    
+                                    33.55284       0.000000       36312.98    
+                                    0.000000       0.000000       0.000000       13491.32    
+                                    0.000000       0.000000       0.000000       0.000000       1614.086    
+Active set=                        0              3              0              3              0
+Truncated SV=                      36313.01      0.1986451       1614.086    
+SVD delX=                         -10.16425       0.000000      0.4486134E-03   0.000000     -0.3203172E-01
+Projected delX=                   -10.16425       0.000000      0.4486134E-03   0.000000     -0.3203172E-01
+Projected xp=                      230.0238       2.000000      0.1559226      0.9999900      0.9679583    
+Cons=                             -0.2508279E-02
+xt=                                230.0238       2.000000      0.1559226      0.9999900      0.9679583    
+ft=                                7431.053    
+ft+sig=                            7431.050    
+Line search successful at iteration   0 with sigma=   1.000000    
+-----------------------------------------
+Iteration No.=                    11
+ObjFun Calls=                    127
+ObjFun Value f=                    7431.053    
+Parameter set=                     230.0238       2.000000      0.1559226      0.9999900      0.9679583    
+Bound Index=                       0              0              0              0              0
+Sampling Scale h=                  499.5000      0.9500000      0.4500000      0.4999945      0.4999945    
+Forward Jacoian sample point:      729.5238       2.000000      0.1559226      0.9999900      0.9679583    
+Backward Jacobian sample Point:    1.000000       2.000000      0.1559226      0.9999900      0.9679583    
+Jacobian matrix column:            1   12987.59       52229.73    
+Forward Jacoian sample point:      230.0238       2.000000      0.1559226      0.9999900      0.9679583    
+Backward Jacobian sample Point:    230.0238       1.050000      0.1559226      0.9999900      0.9679583    
+Jacobian matrix column:            2   7431.053       7616.000    
+Forward Jacoian sample point:      230.0238       2.000000      0.6059226      0.9999900      0.9679583    
+Backward Jacobian sample Point:    230.0238       2.000000      0.5000000E-01  0.9999900      0.9679583    
+Jacobian matrix column:            3   11140.63       7628.560    
+Forward Jacoian sample point:      230.0238       2.000000      0.1559226      0.9999900      0.9679583    
+Backward Jacobian sample Point:    230.0238       2.000000      0.1559226      0.4999955      0.9679583    
+Jacobian matrix column:            4   7431.053       9396.556    
+Forward Jacoian sample point:      230.0238       2.000000      0.1559226      0.9999900      0.9999900    
+Backward Jacobian sample Point:    230.0238       2.000000      0.1559226      0.9999900      0.4679638    
+Jacobian matrix column:            5   7433.384       7628.640    
+Best objective function value f=   7431.053    
+Best parameter x=                  230.0238       2.000000      0.1559226      0.9999900      0.9679583    
+Gradient g at parameter x=          1.339360      -112.8911       61.31449      -449.1467      0.8880906    
+Hessian at x=                      0.2340541    
+                                    0.000000       172.1909    
+                                    35.47145       0.000000       36365.26    
+                                    0.000000       0.000000       0.000000       13927.77    
+                                   -3.360951       0.000000       3776.435       0.000000       1582.485    
+Active set=                        0              3              0              3              0
+Truncated SV=                      36770.59       1177.235      0.1577571    
+SVD delX=                         -7.905056       0.000000      0.1040506E-01   0.000000     -0.4218090E-01
+Projected delX=                   -7.905056       0.000000      0.1040506E-01   0.000000     -0.4218090E-01
+Projected xp=                      222.1188       2.000000      0.1663277      0.9999900      0.9257774    
+Cons=                             -0.9987196E-03
+xt=                                222.1188       2.000000      0.1663277      0.9999900      0.9257774    
+ft=                                7376.811    
+ft+sig=                            7376.810    
+Line search successful at iteration   0 with sigma=   1.000000    
+-----------------------------------------
+Iteration No.=                    12
+ObjFun Calls=                    138
+ObjFun Value f=                    7376.811    
+Parameter set=                     222.1188       2.000000      0.1663277      0.9999900      0.9257774    
+Bound Index=                       0              0              0              0              0
+Sampling Scale h=                  499.5000      0.9500000      0.4500000      0.4999945      0.4999945    
+Forward Jacoian sample point:      721.6188       2.000000      0.1663277      0.9999900      0.9257774    
+Backward Jacobian sample Point:    1.000000       2.000000      0.1663277      0.9999900      0.9257774    
+Jacobian matrix column:            1   12963.63       51090.13    
+Forward Jacoian sample point:      222.1188       2.000000      0.1663277      0.9999900      0.9257774    
+Backward Jacobian sample Point:    222.1188       1.050000      0.1663277      0.9999900      0.9257774    
+Jacobian matrix column:            2   7376.811       7524.972    
+Forward Jacoian sample point:      222.1188       2.000000      0.6163277      0.9999900      0.9257774    
+Backward Jacobian sample Point:    222.1188       2.000000      0.5000000E-01  0.9999900      0.9257774    
+Jacobian matrix column:            3   11100.22       7600.677    
+Forward Jacoian sample point:      222.1188       2.000000      0.1663277      0.9999900      0.9257774    
+Backward Jacobian sample Point:    222.1188       2.000000      0.1663277      0.4999955      0.9257774    
+Jacobian matrix column:            4   7376.811       9375.846    
+Forward Jacoian sample point:      222.1188       2.000000      0.1663277      0.9999900      0.9999900    
+Backward Jacobian sample Point:    222.1188       2.000000      0.1663277      0.9999900      0.4257829    
+Jacobian matrix column:            5   7384.162       7617.919    
+Best objective function value f=   7376.811    
+Best parameter x=                  222.1188       2.000000      0.1663277      0.9999900      0.9257774    
+Gradient g at parameter x=         0.9732111      -77.30822       170.4431      -512.3326      -51.20897    
+Hessian at x=                      0.2341656    
+                                    0.000000       165.5788    
+                                    36.58642       0.000000       36016.88    
+                                    0.000000       0.000000       0.000000       13943.28    
+                                   -3.520495       0.000000       3636.507       0.000000       1707.576    
+Active set=                        0              3              0              3              0
+Truncated SV=                      36398.12       1326.412      0.1581649    
+SVD delX=                         -2.730137       0.000000     -0.5628961E-02   0.000000      0.3634819E-01
+Projected delX=                   -2.730137       0.000000     -0.5628961E-02   0.000000      0.3634819E-01
+Projected xp=                      219.3886       2.000000      0.1606987      0.9999900      0.9621256    
+Cons=                             -0.5477770E-03
+xt=                                219.3886       2.000000      0.1606987      0.9999900      0.9621256    
+ft=                                7361.618    
+ft+sig=                            7361.617    
+Line search successful at iteration   0 with sigma=   1.000000    
+-----------------------------------------
+Iteration No.=                    13
+ObjFun Calls=                    149
+ObjFun Value f=                    7361.618    
+Parameter set=                     219.3886       2.000000      0.1606987      0.9999900      0.9621256    
+Bound Index=                       0              0              0              0              0
+Sampling Scale h=                  499.5000      0.9500000      0.4500000      0.4999945      0.4999945    
+Forward Jacoian sample point:      718.8886       2.000000      0.1606987      0.9999900      0.9621256    
+Backward Jacobian sample Point:    1.000000       2.000000      0.1606987      0.9999900      0.9621256    
+Jacobian matrix column:            1   12911.37       51822.34    
+Forward Jacoian sample point:      219.3886       2.000000      0.1606987      0.9999900      0.9621256    
+Backward Jacobian sample Point:    219.3886       1.050000      0.1606987      0.9999900      0.9621256    
+Jacobian matrix column:            2   7361.618       7485.214    
+Forward Jacoian sample point:      219.3886       2.000000      0.6106987      0.9999900      0.9621256    
+Backward Jacobian sample Point:    219.3886       2.000000      0.5000000E-01  0.9999900      0.9621256    
+Jacobian matrix column:            3   11160.58       7589.685    
+Forward Jacoian sample point:      219.3886       2.000000      0.1606987      0.9999900      0.9621256    
+Backward Jacobian sample Point:    219.3886       2.000000      0.1606987      0.4999955      0.9621256    
+Jacobian matrix column:            4   7361.618       9348.112    
+Forward Jacoian sample point:      219.3886       2.000000      0.1606987      0.9999900      0.9999900    
+Backward Jacobian sample Point:    219.3886       2.000000      0.1606987      0.9999900      0.4621311    
+Jacobian matrix column:            5   7366.301       7557.433    
+Best objective function value f=   7361.618    
+Best parameter x=                  219.3886       2.000000      0.1606987      0.9999900      0.9621256    
+Gradient g at parameter x=         0.2862371      -51.11743       13.23929      -408.0194       39.88840    
+Hessian at x=                      0.2385544    
+                                    0.000000       166.2807    
+                                    36.33501       0.000000       37461.81    
+                                    0.000000       0.000000       0.000000       14260.20    
+                                   -3.599215       0.000000       3955.461       0.000000       1723.859    
+Active set=                        0              3              0              3              0
+Truncated SV=                      37894.40       1291.349      0.1609785    
+SVD delX=                         -3.059340       0.000000      0.7564086E-02   0.000000     -0.4688265E-01
+Projected delX=                   -3.059340       0.000000      0.7564086E-02   0.000000     -0.4688265E-01
+Projected xp=                      216.3293       2.000000      0.1682628      0.9999900      0.9152429    
+Cons=                             -0.2645627E-03
+xt=                                216.3293       2.000000      0.1682628      0.9999900      0.9152429    
+ft=                                7341.245    
+ft+sig=                            7341.244    
+Line search successful at iteration   0 with sigma=   1.000000    
+-----------------------------------------
+Iteration No.=                    14
+ObjFun Calls=                    160
+ObjFun Value f=                    7341.245    
+Parameter set=                     216.3293       2.000000      0.1682628      0.9999900      0.9152429    
+Bound Index=                       0              0              0              0              0
+Sampling Scale h=                  499.5000      0.9500000      0.4500000      0.4999945      0.4999945    
+Forward Jacoian sample point:      715.8293       2.000000      0.1682628      0.9999900      0.9152429    
+Backward Jacobian sample Point:    1.000000       2.000000      0.1682628      0.9999900      0.9152429    
+Jacobian matrix column:            1   12923.14       50855.66    
+Forward Jacoian sample point:      216.3293       2.000000      0.1682628      0.9999900      0.9152429    
+Backward Jacobian sample Point:    216.3293       1.050000      0.1682628      0.9999900      0.9152429    
+Jacobian matrix column:            2   7341.245       7456.149    
+Forward Jacoian sample point:      216.3293       2.000000      0.6182628      0.9999900      0.9152429    
+Backward Jacobian sample Point:    216.3293       2.000000      0.5000000E-01  0.9999900      0.9152429    
+Jacobian matrix column:            3   11072.26       7584.706    
+Forward Jacoian sample point:      216.3293       2.000000      0.1682628      0.9999900      0.9152429    
+Backward Jacobian sample Point:    216.3293       2.000000      0.1682628      0.4999955      0.9152429    
+Jacobian matrix column:            4   7341.245       9342.174    
+Forward Jacoian sample point:      216.3293       2.000000      0.1682628      0.9999900      0.9999900    
+Backward Jacobian sample Point:    216.3293       2.000000      0.1682628      0.9999900      0.4152484    
+Jacobian matrix column:            5   7351.375       7589.962    
+Best objective function value f=   7341.245    
+Best parameter x=                  216.3293       2.000000      0.1682628      0.9999900      0.9152429    
+Gradient g at parameter x=         0.4051663      -43.73613       95.27881      -465.1643      -54.65604    
+Hessian at x=                      0.2365481    
+                                    0.000000       162.5588    
+                                    37.34064       0.000000       36426.10    
+                                    0.000000       0.000000       0.000000       14147.11    
+                                   -3.581936       0.000000       3626.363       0.000000       1746.982    
+Active set=                        0              3              0              3              0
+Truncated SV=                      36801.28       1371.875      0.1598223    
+SVD delX=                         0.1896632       0.000000     -0.7516832E-02   0.000000      0.4727820E-01
+Projected delX=                   0.1896632       0.000000     -0.7516832E-02   0.000000      0.4727820E-01
+Projected xp=                      216.5190       2.000000      0.1607460      0.9999900      0.9625211    
+Cons=                             -0.3223389E-03
+xt=                                216.5190       2.000000      0.1607460      0.9999900      0.9625211    
+ft=                                7345.447    
+ft+sig=                            7345.447    
+xt=                                216.4431       2.000000      0.1637527      0.9999900      0.9436098    
+ft=                                7343.322    
+ft+sig=                            7343.322    
+xt=                                216.3976       2.000000      0.1655568      0.9999900      0.9322631    
+ft=                                7342.330    
+ft+sig=                            7342.330    
+xt=                                216.3703       2.000000      0.1666392      0.9999900      0.9254550    
+ft=                                7341.837    
+ft+sig=                            7341.837    
+xt=                                216.3539       2.000000      0.1672886      0.9999900      0.9213702    
+ft=                                7341.579    
+ft+sig=                            7341.579    
+Line search failed
+-----------------------------------------
+Iteration No.=                    15
+ObjFun Calls=                    175
+ObjFun Value f=                    7341.245    
+Parameter set=                     216.3293       2.000000      0.1682628      0.9999900      0.9152429    
+Bound Index=                       0              0              0              0              0
+Sampling Scale h=                  49.95000      0.9500000E-01  0.4500000E-01  0.4999945E-01  0.4999945E-01
+Forward Jacoian sample point:      266.2793       2.000000      0.1682628      0.9999900      0.9152429    
+Backward Jacobian sample Point:    166.3793       2.000000      0.1682628      0.9999900      0.9152429    
+Jacobian matrix column:            1   7767.831       7262.861    
+Forward Jacoian sample point:      216.3293       2.000000      0.1682628      0.9999900      0.9152429    
+Backward Jacobian sample Point:    216.3293       1.905000      0.1682628      0.9999900      0.9152429    
+Jacobian matrix column:            2   7341.245       7344.563    
+Forward Jacoian sample point:      216.3293       2.000000      0.2132628      0.9999900      0.9152429    
+Backward Jacobian sample Point:    216.3293       2.000000      0.1232628      0.9999900      0.9152429    
+Jacobian matrix column:            3   7382.414       7373.839    
+Forward Jacoian sample point:      216.3293       2.000000      0.1682628      0.9999900      0.9152429    
+Backward Jacobian sample Point:    216.3293       2.000000      0.1682628      0.9499906      0.9152429    
+Jacobian matrix column:            4   7341.245       7402.360    
+Forward Jacoian sample point:      216.3293       2.000000      0.1682628      0.9999900      0.9652424    
+Backward Jacobian sample Point:    216.3293       2.000000      0.1682628      0.9999900      0.8652435    
+Jacobian matrix column:            5   7345.495       7341.223    
+Best objective function value f=   7262.861    
+Best parameter x=                  166.3793       2.000000      0.1682628      0.9999900      0.9152429    
+Gradient g at parameter x=          5.980203      -31.68371       95.27881      -894.7699       36.40775    
+Hessian at x=                      0.1690368    
+                                    0.000000       68.28891    
+                                    23.49132       0.000000       36426.10    
+                                    0.000000       0.000000       0.000000       13101.84    
+                                   -3.524956       0.000000       2282.343       0.000000       3636.920    
+Active set=                        0              3              0              3              0
+Truncated SV=                      36584.22       3478.824      0.1467405    
+SVD delX=                         -40.63140       0.000000      0.2777444E-01   0.000000     -0.6682094E-01
+Projected delX=                   -40.63140       0.000000      0.2777444E-01   0.000000     -0.6682094E-01
+Projected xp=                      175.6979       2.000000      0.1960373      0.9999900      0.8484220    
+Cons=                             -0.2427705E-01
+xt=                                175.6979       2.000000      0.1960373      0.9999900      0.8484220    
+ft=                                7208.783    
+ft+sig=                            7208.758    
+Line search successful at iteration   0 with sigma=   1.000000    
+-----------------------------------------
+Iteration No.=                    16
+ObjFun Calls=                    186
+ObjFun Value f=                    7208.783    
+Parameter set=                     175.6979       2.000000      0.1960373      0.9999900      0.8484220    
+Bound Index=                       0              0              0              0              0
+Sampling Scale h=                  499.5000      0.9500000      0.4500000      0.4999945      0.4999945    
+Forward Jacoian sample point:      675.1979       2.000000      0.1960373      0.9999900      0.8484220    
+Backward Jacobian sample Point:    1.000000       2.000000      0.1960373      0.9999900      0.8484220    
+Jacobian matrix column:            1   12673.92       48217.99    
+Forward Jacoian sample point:      175.6979       2.000000      0.1960373      0.9999900      0.8484220    
+Backward Jacobian sample Point:    175.6979       1.050000      0.1960373      0.9999900      0.8484220    
+Jacobian matrix column:            2   7208.783       7117.124    
+Forward Jacoian sample point:      175.6979       2.000000      0.6460373      0.9999900      0.8484220    
+Backward Jacobian sample Point:    175.6979       2.000000      0.5000000E-01  0.9999900      0.8484220    
+Jacobian matrix column:            3   11274.04       7640.448    
+Forward Jacoian sample point:      175.6979       2.000000      0.1960373      0.9999900      0.8484220    
+Backward Jacobian sample Point:    175.6979       2.000000      0.1960373      0.4999955      0.8484220    
+Jacobian matrix column:            4   7208.783       9304.052    
+Forward Jacoian sample point:      175.6979       2.000000      0.1960373      0.9999900      0.9999900    
+Backward Jacobian sample Point:    175.6979       2.000000      0.1960373      0.9999900      0.3484275    
+Jacobian matrix column:            5   7267.356       7511.973    
+Best objective function value f=   7117.124    
+Best parameter x=                  175.6979       1.050000      0.1960373      0.9999900      0.8484220    
+Gradient g at parameter x=         -3.804555       163.1266      -18.19973      -386.1284       15.09799    
+Hessian at x=                      0.2502632    
+                                    0.000000       140.3033    
+                                    41.89276       0.000000       40231.59    
+                                    0.000000       0.000000       0.000000       15217.99    
+                                   -4.590930       0.000000       3890.336       0.000000       2412.027    
+Active set=                        0              0              0              3              0
+Truncated SV=                      40627.67       140.3033       2016.031      0.1699534    
+SVD delX=                          21.85286      -1.162671     -0.3047211E-01   0.000000      0.8448234E-01
+Projected delX=                    21.85286      -1.162671     -0.3047211E-01   0.000000      0.8448234E-01
+Projected xp=                      197.5508      0.8373289      0.1655652      0.9999900      0.9329043    
+Cons=                             -0.2709728E-01
+xt=                                197.5508      0.8373289      0.1655652      0.9999900      0.9329043    
+ft=                                7289.708    
+ft+sig=                            7289.681    
+xt=                                188.8096       1.302397      0.1777540      0.9999900      0.8991114    
+ft=                                7195.938    
+ft+sig=                            7195.921    
+Line search successful at iteration   1 with sigma=  0.6000000    
+-----------------------------------------
+Iteration No.=                    17
+ObjFun Calls=                    198
+ObjFun Value f=                    7117.124    
+Parameter set=                     175.6979       1.050000      0.1960373      0.9999900      0.8484220    
+Bound Index=                       0              0              0              0              0
+Sampling Scale h=                  499.5000      0.9500000      0.4500000      0.4999945      0.4999945    
+Forward Jacoian sample point:      675.1979       1.050000      0.1960373      0.9999900      0.8484220    
+Backward Jacobian sample Point:    1.000000       1.050000      0.1960373      0.9999900      0.8484220    
+Jacobian matrix column:            1   13958.22       48169.82    
+Forward Jacoian sample point:      175.6979       2.000000      0.1960373      0.9999900      0.8484220    
+Backward Jacobian sample Point:    175.6979      0.1000000      0.1960373      0.9999900      0.8484220    
+Jacobian matrix column:            2   7208.783       8343.873    
+Forward Jacoian sample point:      175.6979       1.050000      0.6460373      0.9999900      0.8484220    
+Backward Jacobian sample Point:    175.6979       1.050000      0.5000000E-01  0.9999900      0.8484220    
+Jacobian matrix column:            3   11211.58       7407.401    
+Forward Jacoian sample point:      175.6979       1.050000      0.1960373      0.9999900      0.8484220    
+Backward Jacobian sample Point:    175.6979       1.050000      0.1960373      0.4999955      0.8484220    
+Jacobian matrix column:            4   7117.124       9289.416    
+Forward Jacoian sample point:      175.6979       1.050000      0.1960373      0.9999900      0.9999900    
+Backward Jacobian sample Point:    175.6979       1.050000      0.1960373      0.9999900      0.3484275    
+Jacobian matrix column:            5   7154.913       7443.820    
+Best objective function value f=   7117.124    
+Best parameter x=                  175.6979       1.050000      0.1960373      0.9999900      0.8484220    
+Gradient g at parameter x=         0.3346527       1090.711       728.6501      -823.6188      -80.51489    
+Hessian at x=                      0.2647369    
+                                   -6.760982       2040.415    
+                                    41.05731      -348.2453       37200.61    
+                                    0.000000       0.000000       0.000000       14084.20    
+                                   -4.498865      -123.5242       3588.097       0.000000       2237.655    
+Active set=                        0              0              0              3              0
+Truncated SV=                      37568.72       2074.922       1835.151      0.1589853    
+SVD delX=                         -15.67405     -0.5886305     -0.6027476E-02   0.000000     -0.1836007E-01
+Projected delX=                   -15.67405     -0.5886305     -0.6027476E-02   0.000000     -0.1836007E-01
+Projected xp=                      160.0239      0.4613695      0.1900098      0.9999900      0.8300619    
+Cons=                             -0.6501850E-01
+xt=                                160.0239      0.4613695      0.1900098      0.9999900      0.8300619    
+ft=                                6903.168    
+ft+sig=                            6903.103    
+Line search successful at iteration   0 with sigma=   1.000000    
+-----------------------------------------
+Iteration No.=                    18
+ObjFun Calls=                    209
+ObjFun Value f=                    6903.168    
+Parameter set=                     160.0239      0.4613695      0.1900098      0.9999900      0.8300619    
+Bound Index=                       0              0              0              0              0
+Sampling Scale h=                  499.5000      0.9500000      0.4500000      0.4999945      0.4999945    
+Forward Jacoian sample point:      659.5239      0.4613695      0.1900098      0.9999900      0.8300619    
+Backward Jacobian sample Point:    1.000000      0.4613695      0.1900098      0.9999900      0.8300619    
+Jacobian matrix column:            1   16030.07       48418.70    
+Forward Jacoian sample point:      160.0239       1.411369      0.1900098      0.9999900      0.8300619    
+Backward Jacobian sample Point:    160.0239      0.1000000      0.1900098      0.9999900      0.8300619    
+Jacobian matrix column:            2   7147.057       8220.698    
+Forward Jacoian sample point:      160.0239      0.4613695      0.6400098      0.9999900      0.8300619    
+Backward Jacobian sample Point:    160.0239      0.4613695      0.5000000E-01  0.9999900      0.8300619    
+Jacobian matrix column:            3   11104.28       7133.011    
+Forward Jacoian sample point:      160.0239      0.4613695      0.1900098      0.9999900      0.8300619    
+Backward Jacobian sample Point:    160.0239      0.4613695      0.1900098      0.4999955      0.8300619    
+Jacobian matrix column:            4   6903.168       9224.989    
+Forward Jacoian sample point:      160.0239      0.4613695      0.1900098      0.9999900      0.9999900    
+Backward Jacobian sample Point:    160.0239      0.4613695      0.1900098      0.9999900      0.3300674    
+Jacobian matrix column:            5   6940.829       7185.526    
+Best objective function value f=   6903.168    
+Best parameter x=                  160.0239      0.4613695      0.1900098      0.9999900      0.8300619    
+Gradient g at parameter x=          3.157955       761.4684       963.3308      -1044.813      -41.83247    
+Hessian at x=                      0.3022250    
+                                   -6.928058       4011.055    
+                                    43.87580       932.5624       37210.95    
+                                    0.000000       0.000000       0.000000       14395.68    
+                                   -4.412101      -342.9970       3207.534       0.000000       2095.393    
+Active set=                        0              0              0              3              0
+Truncated SV=                      37525.63       4067.077       1724.803      0.1881901    
+SVD delX=                         -17.36921     -0.2264830      0.5639262E-02   0.000000     -0.6231447E-01
+Projected delX=                   -17.36921     -0.2264830      0.5639262E-02   0.000000     -0.6231447E-01
+Projected xp=                      142.6546      0.2348865      0.1956490      0.9999900      0.7677474    
+Cons=                             -0.2192716E-01
+xt=                                142.6546      0.2348865      0.1956490      0.9999900      0.7677474    
+ft=                                7345.651    
+ft+sig=                            7345.629    
+xt=                                149.6023      0.3254797      0.1933933      0.9999900      0.7926732    
+ft=                                6869.634    
+ft+sig=                            6869.621    
+Line search successful at iteration   1 with sigma=  0.6000000    
+-----------------------------------------
+Iteration No.=                    19
+ObjFun Calls=                    221
+ObjFun Value f=                    6869.634    
+Parameter set=                     149.6023      0.3254797      0.1933933      0.9999900      0.7926732    
+Bound Index=                       0              0              0              0              0
+Sampling Scale h=                  499.5000      0.9500000      0.4500000      0.4999945      0.4999945    
+Forward Jacoian sample point:      649.1023      0.3254797      0.1933933      0.9999900      0.7926732    
+Backward Jacobian sample Point:    1.000000      0.3254797      0.1933933      0.9999900      0.7926732    
+Jacobian matrix column:            1   16941.00       47854.56    
+Forward Jacoian sample point:      149.6023       1.275480      0.1933933      0.9999900      0.7926732    
+Backward Jacobian sample Point:    149.6023      0.1000000      0.1933933      0.9999900      0.7926732    
+Jacobian matrix column:            2   7143.597       8250.341    
+Forward Jacoian sample point:      149.6023      0.3254797      0.6433933      0.9999900      0.7926732    
+Backward Jacobian sample Point:    149.6023      0.3254797      0.5000000E-01  0.9999900      0.7926732    
+Jacobian matrix column:            3   11149.04       7272.649    
+Forward Jacoian sample point:      149.6023      0.3254797      0.1933933      0.9999900      0.7926732    
+Backward Jacobian sample Point:    149.6023      0.3254797      0.1933933      0.4999955      0.7926732    
+Jacobian matrix column:            4   6869.634       9228.966    
+Forward Jacoian sample point:      149.6023      0.3254797      0.1933933      0.9999900      0.9999900    
+Backward Jacobian sample Point:    149.6023      0.3254797      0.1933933      0.9999900      0.2926787    
+Jacobian matrix column:            5   6957.103       7097.427    
+Best objective function value f=   6869.634    
+Best parameter x=                  149.6023      0.3254797      0.1933933      0.9999900      0.7926732    
+Gradient g at parameter x=          2.233020      -61.16555       166.6558      -666.2185       110.1773    
+Hessian at x=                      0.3185413    
+                                   -5.946534       4914.431    
+                                    47.48324       2423.532       41525.03    
+                                    0.000000       0.000000       0.000000       16210.16    
+                                   -4.523767      -507.9251       3209.995       0.000000       2322.649    
+Active set=                        0              0              0              3              0
+Truncated SV=                      41938.51       4933.419       1890.300      0.2029218    
+SVD delX=                         -11.48235     -0.2056210E-01  0.1798089E-01   0.000000     -0.9914682E-01
+Projected delX=                   -11.48235     -0.2056210E-01  0.1798089E-01   0.000000     -0.9914682E-01
+Projected xp=                      138.1200      0.3049176      0.2113742      0.9999900      0.6935264    
+Cons=                             -0.3230973E-02
+xt=                                138.1200      0.3049176      0.2113742      0.9999900      0.6935264    
+ft=                                6997.879    
+ft+sig=                            6997.876    
+xt=                                142.7129      0.3131424      0.2041819      0.9999900      0.7331851    
+ft=                                6914.300    
+ft+sig=                            6914.298    
+xt=                                145.4687      0.3180773      0.1998665      0.9999900      0.7569804    
+ft=                                6889.289    
+ft+sig=                            6889.288    
+xt=                                147.1221      0.3210383      0.1972772      0.9999900      0.7712575    
+ft=                                6878.858    
+ft+sig=                            6878.857    
+xt=                                148.1142      0.3228148      0.1957237      0.9999900      0.7798238    
+ft=                                6874.337    
+ft+sig=                            6874.336    
+Line search failed
+-----------------------------------------
+Iteration No.=                    20
+ObjFun Calls=                    236
+ObjFun Value f=                    6869.634    
+Parameter set=                     149.6023      0.3254797      0.1933933      0.9999900      0.7926732    
+Bound Index=                       0              0              0              0              0
+Sampling Scale h=                  49.95000      0.9500000E-01  0.4500000E-01  0.4999945E-01  0.4999945E-01
+Forward Jacoian sample point:      199.5523      0.3254797      0.1933933      0.9999900      0.7926732    
+Backward Jacobian sample Point:    99.65233      0.3254797      0.1933933      0.9999900      0.7926732    
+Jacobian matrix column:            1   7726.989       8388.150    
+Forward Jacoian sample point:      149.6023      0.4204797      0.1933933      0.9999900      0.7926732    
+Backward Jacobian sample Point:    149.6023      0.2304797      0.1933933      0.9999900      0.7926732    
+Jacobian matrix column:            2   6858.757       7259.782    
+Forward Jacoian sample point:      149.6023      0.3254797      0.2383933      0.9999900      0.7926732    
+Backward Jacobian sample Point:    149.6023      0.3254797      0.1483933      0.9999900      0.7926732    
+Jacobian matrix column:            3   6919.178       6904.179    
+Forward Jacoian sample point:      149.6023      0.3254797      0.1933933      0.9999900      0.7926732    
+Backward Jacobian sample Point:    149.6023      0.3254797      0.1933933      0.9499906      0.7926732    
+Jacobian matrix column:            4   6869.634       6948.510    
+Forward Jacoian sample point:      149.6023      0.3254797      0.1933933      0.9999900      0.8426727    
+Backward Jacobian sample Point:    149.6023      0.3254797      0.1933933      0.9999900      0.7426738    
+Jacobian matrix column:            5   6880.471       6865.302    
+Best objective function value f=   6858.757    
+Best parameter x=                  149.6023      0.4204797      0.1933933      0.9999900      0.7926732    
+Gradient g at parameter x=         0.3921277      -1194.912       166.6558      -1209.519       147.3247    
+Hessian at x=                      0.9380582    
+                                    62.45844       35501.25    
+                                    66.77621       8029.853       41525.03    
+                                    0.000000       0.000000       0.000000       14720.64    
+                                   -9.030987      -1172.436       1842.026       0.000000       4503.599    
+Active set=                        0              0              0              3              0
+Truncated SV=                      47106.35       30095.07       4328.663      0.7364675    
+SVD delX=                         -2.858154      0.3915387E-01 -0.5841315E-02   0.000000     -0.2586184E-01
+Projected delX=                   -2.858154      0.3915387E-01 -0.5841315E-02   0.000000     -0.2586184E-01
+Projected xp=                      146.7442      0.3646336      0.1875520      0.9999900      0.7668114    
+Cons=                             -0.5268977E-02
+xt=                                146.7442      0.3646336      0.1875520      0.9999900      0.7668114    
+ft=                                6840.881    
+ft+sig=                            6840.876    
+Line search successful at iteration   0 with sigma=   1.000000    
+-----------------------------------------
+Iteration No.=                    21
+ObjFun Calls=                    247
+ObjFun Value f=                    6840.881    
+Parameter set=                     146.7442      0.3646336      0.1875520      0.9999900      0.7668114    
+Bound Index=                       0              0              0              0              0
+Sampling Scale h=                  499.5000      0.9500000      0.4500000      0.4999945      0.4999945    
+Forward Jacoian sample point:      646.2442      0.3646336      0.1875520      0.9999900      0.7668114    
+Backward Jacobian sample Point:    1.000000      0.3646336      0.1875520      0.9999900      0.7668114    
+Jacobian matrix column:            1   16598.61       48132.02    
+Forward Jacoian sample point:      146.7442       1.314634      0.1875520      0.9999900      0.7668114    
+Backward Jacobian sample Point:    146.7442      0.1000000      0.1875520      0.9999900      0.7668114    
+Jacobian matrix column:            2   7173.294       8317.314    
+Forward Jacoian sample point:      146.7442      0.3646336      0.6375520      0.9999900      0.7668114    
+Backward Jacobian sample Point:    146.7442      0.3646336      0.5000000E-01  0.9999900      0.7668114    
+Jacobian matrix column:            3   10930.65       7230.908    
+Forward Jacoian sample point:      146.7442      0.3646336      0.1875520      0.9999900      0.7668114    
+Backward Jacobian sample Point:    146.7442      0.3646336      0.1875520      0.4999955      0.7668114    
+Jacobian matrix column:            4   6840.881       9125.002    
+Forward Jacoian sample point:      146.7442      0.3646336      0.1875520      0.9999900      0.9999900    
+Backward Jacobian sample Point:    146.7442      0.3646336      0.1875520      0.9999900      0.2668169    
+Jacobian matrix column:            5   6919.360       7095.276    
+Best objective function value f=   6840.881    
+Best parameter x=                  146.7442      0.3646336      0.1875520      0.9999900      0.7668114    
+Gradient g at parameter x=          1.066270       251.0213      -43.98620      -510.9437      -1.329836    
+Hessian at x=                      0.3192476    
+                                   -5.654558       4681.950    
+                                    49.12647       2266.419       40588.29    
+                                    0.000000       0.000000       0.000000       16229.58    
+                                   -4.176169      -459.6977       2794.518       0.000000       2051.174    
+Active set=                        0              0              0              3              0
+Truncated SV=                      40926.86       4681.007       1713.659      0.2017322    
+SVD delX=                         -8.738341     -0.8027308E-01  0.2048291E-01   0.000000     -0.6303910E-01
+Projected delX=                   -8.738341     -0.8027308E-01  0.2048291E-01   0.000000     -0.6303910E-01
+Projected xp=                      138.0058      0.2843605      0.2080349      0.9999900      0.7037723    
+Cons=                             -0.3028482E-02
+xt=                                138.0058      0.2843605      0.2080349      0.9999900      0.7037723    
+ft=                                7090.962    
+ft+sig=                            7090.959    
+xt=                                141.5012      0.3164697      0.1998418      0.9999900      0.7289879    
+ft=                                6920.776    
+ft+sig=                            6920.774    
+xt=                                143.5984      0.3357352      0.1949259      0.9999900      0.7441173    
+ft=                                6871.400    
+ft+sig=                            6871.399    
+xt=                                144.8567      0.3472946      0.1919763      0.9999900      0.7531949    
+ft=                                6853.998    
+ft+sig=                            6853.997    
+xt=                                145.6117      0.3542302      0.1902066      0.9999900      0.7586415    
+ft=                                6846.711    
+ft+sig=                            6846.710    
+Line search failed
+-----------------------------------------
+Iteration No.=                    22
+ObjFun Calls=                    262
+ObjFun Value f=                    6840.881    
+Parameter set=                     146.7442      0.3646336      0.1875520      0.9999900      0.7668114    
+Bound Index=                       0              0              0              0              0
+Sampling Scale h=                  49.95000      0.9500000E-01  0.4500000E-01  0.4999945E-01  0.4999945E-01
+Forward Jacoian sample point:      196.6942      0.3646336      0.1875520      0.9999900      0.7668114    
+Backward Jacobian sample Point:    96.79417      0.3646336      0.1875520      0.9999900      0.7668114    
+Jacobian matrix column:            1   7597.055       8401.172    
+Forward Jacoian sample point:      146.7442      0.4596336      0.1875520      0.9999900      0.7668114    
+Backward Jacobian sample Point:    146.7442      0.2696336      0.1875520      0.9999900      0.7668114    
+Jacobian matrix column:            2   6849.885       7036.526    
+Forward Jacoian sample point:      146.7442      0.3646336      0.2325520      0.9999900      0.7668114    
+Backward Jacobian sample Point:    146.7442      0.3646336      0.1425520      0.9999900      0.7668114    
+Jacobian matrix column:            3   6879.997       6883.956    
+Forward Jacoian sample point:      146.7442      0.3646336      0.1875520      0.9999900      0.7668114    
+Backward Jacobian sample Point:    146.7442      0.3646336      0.1875520      0.9499906      0.7668114    
+Jacobian matrix column:            4   6840.881       6911.632    
+Forward Jacoian sample point:      146.7442      0.3646336      0.1875520      0.9999900      0.8168108    
+Backward Jacobian sample Point:    146.7442      0.3646336      0.1875520      0.9999900      0.7168119    
+Jacobian matrix column:            5   6846.709       6841.403    
+Best objective function value f=   6840.881    
+Best parameter x=                  146.7442      0.3646336      0.1875520      0.9999900      0.7668114    
+Gradient g at parameter x=        -0.9473074      -334.7324      -43.98620      -1047.537       49.65770    
+Hessian at x=                      0.8821034    
+                                    46.09853       25555.31    
+                                    65.69752       5735.613       40588.29    
+                                    0.000000       0.000000       0.000000       14700.19    
+                                   -8.550253      -1014.125       1633.341       0.000000       4032.495    
+Active set=                        0              0              0              3              0
+Truncated SV=                      42565.73       23728.25       3882.287      0.6986312    
+SVD delX=                         0.4349072      0.1223176E-01 -0.1030882E-02   0.000000     -0.7898539E-02
+Projected delX=                   0.4349072      0.1223176E-01 -0.1030882E-02   0.000000     -0.7898539E-02
+Projected xp=                      147.1791      0.3768653      0.1865211      0.9999900      0.7589128    
+Cons=                             -0.4853235E-03
+xt=                                147.1791      0.3768653      0.1865211      0.9999900      0.7589128    
+ft=                                6845.736    
+ft+sig=                            6845.735    
+xt=                                147.0051      0.3719726      0.1869335      0.9999900      0.7620723    
+ft=                                6842.979    
+ft+sig=                            6842.979    
+xt=                                146.9007      0.3690370      0.1871809      0.9999900      0.7639679    
+ft=                                6841.754    
+ft+sig=                            6841.753    
+xt=                                146.8381      0.3672756      0.1873294      0.9999900      0.7651053    
+ft=                                6841.244    
+ft+sig=                            6841.244    
+xt=                                146.8005      0.3662188      0.1874184      0.9999900      0.7657877    
+ft=                                6841.031    
+ft+sig=                            6841.031    
+Line search failed
+-----------------------------------------
+Iteration No.=                    23
+ObjFun Calls=                    277
+ObjFun Value f=                    6840.881    
+Parameter set=                     146.7442      0.3646336      0.1875520      0.9999900      0.7668114    
+Bound Index=                       0              0              0              0              0
+Sampling Scale h=                  4.995000      0.9500000E-02  0.4500000E-02  0.4999945E-02  0.4999945E-02
+Forward Jacoian sample point:      151.7392      0.3646336      0.1875520      0.9999900      0.7668114    
+Backward Jacobian sample Point:    141.7492      0.3646336      0.1875520      0.9999900      0.7668114    
+Jacobian matrix column:            1   6856.112       6859.824    
+Forward Jacoian sample point:      146.7442      0.3741336      0.1875520      0.9999900      0.7668114    
+Backward Jacobian sample Point:    146.7442      0.3551336      0.1875520      0.9999900      0.7668114    
+Jacobian matrix column:            2   6843.739       6843.863    
+Forward Jacoian sample point:      146.7442      0.3646336      0.1920520      0.9999900      0.7668114    
+Backward Jacobian sample Point:    146.7442      0.3646336      0.1830520      0.9999900      0.7668114    
+Jacobian matrix column:            3   6841.094       6841.490    
+Forward Jacoian sample point:      146.7442      0.3646336      0.1875520      0.9999900      0.7668114    
+Backward Jacobian sample Point:    146.7442      0.3646336      0.1875520      0.9949901      0.7668114    
+Jacobian matrix column:            4   6840.881       6846.601    
+Forward Jacoian sample point:      146.7442      0.3646336      0.1875520      0.9999900      0.7718113    
+Backward Jacobian sample Point:    146.7442      0.3646336      0.1875520      0.9999900      0.7618114    
+Jacobian matrix column:            5   6841.186       6840.640    
+Best objective function value f=   6840.640    
+Best parameter x=                  146.7442      0.3646336      0.1875520      0.9999900      0.7618114    
+Gradient g at parameter x=        -0.2512359       7.016980      -43.98620      -1107.486       54.57814    
+Hessian at x=                       1.253723    
+                                    109.6507       36935.17    
+                                    71.60993       5789.769       40588.29    
+                                    0.000000       0.000000       0.000000       14607.95    
+                                   -10.28858      -1269.522       1638.858       0.000000       4075.479    
+Active set=                        0              0              0              3              0
+Truncated SV=                      44841.18       32828.72       3929.444      0.8328411    
+SVD delX=                         0.9591185E-01 -0.1223349E-02  0.1662337E-02   0.000000     -0.1419925E-01
+Projected delX=                   0.9591185E-01 -0.1223349E-02  0.1662337E-02   0.000000     -0.1419925E-01
+Projected xp=                      146.8401      0.3634102      0.1892144      0.9999900      0.7526121    
+Cons=                             -0.8807694E-04
+xt=                                146.8401      0.3634102      0.1892144      0.9999900      0.7526121    
+ft=                                6840.251    
+ft+sig=                            6840.251    
+Line search successful at iteration   0 with sigma=   1.000000    
+-----------------------------------------
+Iteration No.=                    24
+ObjFun Calls=                    288
+ObjFun Value f=                    6840.251    
+Parameter set=                     146.8401      0.3634102      0.1892144      0.9999900      0.7526121    
+Bound Index=                       0              0              0              0              0
+Sampling Scale h=                  49.95000      0.9500000E-01  0.4500000E-01  0.4999945E-01  0.4999945E-01
+Forward Jacoian sample point:      196.7901      0.3634102      0.1892144      0.9999900      0.7526121    
+Backward Jacobian sample Point:    96.89009      0.3634102      0.1892144      0.9999900      0.7526121    
+Jacobian matrix column:            1   7607.898       8379.907    
+Forward Jacoian sample point:      146.8401      0.4584102      0.1892144      0.9999900      0.7526121    
+Backward Jacobian sample Point:    146.8401      0.2684102      0.1892144      0.9999900      0.7526121    
+Jacobian matrix column:            2   6850.761       7038.229    
+Forward Jacoian sample point:      146.8401      0.3634102      0.2342144      0.9999900      0.7526121    
+Backward Jacobian sample Point:    146.8401      0.3634102      0.1442144      0.9999900      0.7526121    
+Jacobian matrix column:            3   6881.001       6881.212    
+Forward Jacoian sample point:      146.8401      0.3634102      0.1892144      0.9999900      0.7526121    
+Backward Jacobian sample Point:    146.8401      0.3634102      0.1892144      0.9499906      0.7526121    
+Jacobian matrix column:            4   6840.251       6909.935    
+Forward Jacoian sample point:      146.8401      0.3634102      0.1892144      0.9999900      0.8026116    
+Backward Jacobian sample Point:    146.8401      0.3634102      0.1892144      0.9999900      0.7026127    
+Jacobian matrix column:            5   6844.525       6842.530    
+Best objective function value f=   6840.251    
+Best parameter x=                  146.8401      0.3634102      0.1892144      0.9999900      0.7526121    
+Gradient g at parameter x=        -0.6703544      -335.0845      -2.345856      -1027.632       16.80249    
+Hessian at x=                      0.8800487    
+                                    46.36658       25698.00    
+                                    66.32049       5882.357       40351.57    
+                                    0.000000       0.000000       0.000000       14643.13    
+                                   -8.546595      -1028.286       1582.328       0.000000       4029.877    
+Active set=                        0              0              0              3              0
+Truncated SV=                      42455.49       23741.84       3882.297      0.6947288    
+SVD delX=                         0.2477623      0.1314044E-01 -0.2288484E-02   0.000000      0.6075371E-03
+Projected delX=                   0.2477623      0.1314044E-01 -0.2288484E-02   0.000000      0.6075371E-03
+Projected xp=                      147.0878      0.3765506      0.1869259      0.9999900      0.7532197    
+Cons=                             -0.4553669E-03
+xt=                                147.0878      0.3765506      0.1869259      0.9999900      0.7532197    
+ft=                                6845.360    
+ft+sig=                            6845.360    
+xt=                                146.9887      0.3712945      0.1878413      0.9999900      0.7529767    
+ft=                                6842.457    
+ft+sig=                            6842.456    
+xt=                                146.9293      0.3681408      0.1883905      0.9999900      0.7528308    
+ft=                                6841.173    
+ft+sig=                            6841.173    
+xt=                                146.8936      0.3662485      0.1887201      0.9999900      0.7527434    
+ft=                                6840.631    
+ft+sig=                            6840.631    
+xt=                                146.8722      0.3651132      0.1889178      0.9999900      0.7526909    
+ft=                                6840.400    
+ft+sig=                            6840.400    
+Line search failed
+-----------------------------------------
+Iteration No.=                    25
+ObjFun Calls=                    303
+ObjFun Value f=                    6840.251    
+Parameter set=                     146.8401      0.3634102      0.1892144      0.9999900      0.7526121    
+Bound Index=                       0              0              0              0              0
+Sampling Scale h=                  4.995000      0.9500000E-02  0.4500000E-02  0.4999945E-02  0.4999945E-02
+Forward Jacoian sample point:      151.8351      0.3634102      0.1892144      0.9999900      0.7526121    
+Backward Jacobian sample Point:    141.8451      0.3634102      0.1892144      0.9999900      0.7526121    
+Jacobian matrix column:            1   6856.941       6858.155    
+Forward Jacoian sample point:      146.8401      0.3729102      0.1892144      0.9999900      0.7526121    
+Backward Jacobian sample Point:    146.8401      0.3539102      0.1892144      0.9999900      0.7526121    
+Jacobian matrix column:            2   6842.955       6843.429    
+Forward Jacoian sample point:      146.8401      0.3634102      0.1937144      0.9999900      0.7526121    
+Backward Jacobian sample Point:    146.8401      0.3634102      0.1847144      0.9999900      0.7526121    
+Jacobian matrix column:            3   6840.649       6840.670    
+Forward Jacoian sample point:      146.8401      0.3634102      0.1892144      0.9999900      0.7526121    
+Backward Jacobian sample Point:    146.8401      0.3634102      0.1892144      0.9949901      0.7526121    
+Jacobian matrix column:            4   6840.251       6845.870    
+Forward Jacoian sample point:      146.8401      0.3634102      0.1892144      0.9999900      0.7576121    
+Backward Jacobian sample Point:    146.8401      0.3634102      0.1892144      0.9999900      0.7476122    
+Jacobian matrix column:            5   6840.390       6840.176    
+Best objective function value f=   6840.176    
+Best parameter x=                  146.8401      0.3634102      0.1892144      0.9999900      0.7476122    
+Gradient g at parameter x=         0.1202799E-02  -10.93134      -2.345856      -1087.438       21.37567    
+Hessian at x=                       1.253733    
+                                    110.6937       37383.52    
+                                    72.43623       5993.609       40351.57    
+                                    0.000000       0.000000       0.000000       14551.33    
+                                   -10.18165      -1265.577       1587.542       0.000000       4073.977    
+Active set=                        0              0              0              3              0
+Truncated SV=                      45047.93       32828.58       3932.983      0.8298805    
+SVD delX=                        -0.9868041E-01  0.3319778E-03  0.4042386E-03   0.000000     -0.5547895E-02
+Projected delX=                  -0.9868041E-01  0.3319778E-03  0.4042386E-03   0.000000     -0.5547895E-02
+Projected xp=                      146.7414      0.3637422      0.1896186      0.9999900      0.7470642    
+Cons=                             -0.1232859E-04
+xt=                                146.7414      0.3637422      0.1896186      0.9999900      0.7470642    
+ft=                                6840.179    
+ft+sig=                            6840.179    
+Line search successful at iteration   0 with sigma=   1.000000    
+-----------------------------------------
+Iteration No.=                    26
+ObjFun Calls=                    314
+ObjFun Value f=                    6840.176    
+Parameter set=                     146.8401      0.3634102      0.1892144      0.9999900      0.7476122    
+Bound Index=                       0              0              0              0              0
+Sampling Scale h=                  49.95000      0.9500000E-01  0.4500000E-01  0.4999945E-01  0.4999945E-01
+Forward Jacoian sample point:      196.7901      0.3634102      0.1892144      0.9999900      0.7476122    
+Backward Jacobian sample Point:    96.89009      0.3634102      0.1892144      0.9999900      0.7476122    
+Jacobian matrix column:            1   7609.297       8376.345    
+Forward Jacoian sample point:      146.8401      0.4584102      0.1892144      0.9999900      0.7476122    
+Backward Jacobian sample Point:    146.8401      0.2684102      0.1892144      0.9999900      0.7476122    
+Jacobian matrix column:            2   6851.098       7037.762    
+Forward Jacoian sample point:      146.8401      0.3634102      0.2342144      0.9999900      0.7476122    
+Backward Jacobian sample Point:    146.8401      0.3634102      0.1442144      0.9999900      0.7476122    
+Jacobian matrix column:            3   6880.470       6881.426    
+Forward Jacoian sample point:      146.8401      0.3634102      0.1892144      0.9999900      0.7476122    
+Backward Jacobian sample Point:    146.8401      0.3634102      0.1892144      0.9499906      0.7476122    
+Jacobian matrix column:            4   6840.176       6909.078    
+Forward Jacoian sample point:      146.8401      0.3634102      0.1892144      0.9999900      0.7976116    
+Backward Jacobian sample Point:    146.8401      0.3634102      0.1892144      0.9999900      0.6976127    
+Jacobian matrix column:            5   6843.816       6843.134    
+Best objective function value f=   6840.176    
+Best parameter x=                  146.8401      0.3634102      0.1892144      0.9999900      0.7476122    
+Gradient g at parameter x=        -0.6268536      -331.0495      -10.62121      -1011.968       3.781524    
+Hessian at x=                      0.8794639    
+                                    46.34294       25683.43    
+                                    66.58537       5916.722       40268.25    
+                                    0.000000       0.000000       0.000000       14643.13    
+                                   -8.516752      -1028.959       1560.660       0.000000       4005.129    
+Active set=                        0              0              0              3              0
+Truncated SV=                      42399.95       23697.64       3859.404      0.6934744    
+SVD delX=                         0.2215660      0.1314215E-01 -0.2179051E-02   0.000000      0.3752436E-02
+Projected delX=                   0.2215660      0.1314215E-01 -0.2179051E-02   0.000000      0.3752436E-02
+Projected xp=                      147.0617      0.3765524      0.1870353      0.9999900      0.7513646    
+Cons=                             -0.4452258E-03
+xt=                                147.0617      0.3765524      0.1870353      0.9999900      0.7513646    
+ft=                                6845.305    
+ft+sig=                            6845.304    
+xt=                                146.9730      0.3712955      0.1879069      0.9999900      0.7498637    
+ft=                                6842.413    
+ft+sig=                            6842.413    
+xt=                                146.9199      0.3681414      0.1884299      0.9999900      0.7489631    
+ft=                                6841.127    
+ft+sig=                            6841.127    
+xt=                                146.8879      0.3662489      0.1887437      0.9999900      0.7484227    
+ft=                                6840.577    
+ft+sig=                            6840.577    
+xt=                                146.8688      0.3651134      0.1889320      0.9999900      0.7480985    
+ft=                                6840.340    
+ft+sig=                            6840.340    
+Line search failed
+-----------------------------------------
+Iteration No.=                    27
+ObjFun Calls=                    329
+ObjFun Value f=                    6840.176    
+Parameter set=                     146.8401      0.3634102      0.1892144      0.9999900      0.7476122    
+Bound Index=                       0              0              0              0              0
+Sampling Scale h=                  4.995000      0.9500000E-02  0.4500000E-02  0.4999945E-02  0.4999945E-02
+Forward Jacoian sample point:      151.8351      0.3634102      0.1892144      0.9999900      0.7476122    
+Backward Jacobian sample Point:    141.8451      0.3634102      0.1892144      0.9999900      0.7476122    
+Jacobian matrix column:            1   6857.121       6857.833    
+Forward Jacoian sample point:      146.8401      0.3729102      0.1892144      0.9999900      0.7476122    
+Backward Jacobian sample Point:    146.8401      0.3539102      0.1892144      0.9999900      0.7476122    
+Jacobian matrix column:            2   6842.937       6843.299    
+Forward Jacoian sample point:      146.8401      0.3634102      0.1937144      0.9999900      0.7476122    
+Backward Jacobian sample Point:    146.8401      0.3634102      0.1847144      0.9999900      0.7476122    
+Jacobian matrix column:            3   6840.536       6840.632    
+Forward Jacoian sample point:      146.8401      0.3634102      0.1892144      0.9999900      0.7476122    
+Backward Jacobian sample Point:    146.8401      0.3634102      0.1892144      0.9949901      0.7476122    
+Jacobian matrix column:            4   6840.176       6845.719    
+Forward Jacoian sample point:      146.8401      0.3634102      0.1892144      0.9999900      0.7526121    
+Backward Jacobian sample Point:    146.8401      0.3634102      0.1892144      0.9999900      0.7426122    
+Jacobian matrix column:            5   6840.251       6840.168    
+Best objective function value f=   6840.168    
+Best parameter x=                  146.8401      0.3634102      0.1892144      0.9999900      0.7426122    
+Gradient g at parameter x=         0.5147071E-01  -5.045366      -10.62121      -1072.245       8.203176    
+Hessian at x=                       1.252835    
+                                    110.6350       37367.33    
+                                    72.74221       6034.415       40268.25    
+                                    0.000000       0.000000       0.000000       14551.33    
+                                   -10.11145      -1261.407       1565.759       0.000000       4049.363    
+Active set=                        0              0              0              3              0
+Truncated SV=                      45029.38       32745.34       3910.644      0.8286893    
+SVD delX=                        -0.1197021      0.3225253E-03  0.5260584E-03   0.000000     -0.2427637E-02
+Projected delX=                  -0.1197021      0.3225253E-03  0.5260584E-03   0.000000     -0.2427637E-02
+Projected xp=                      146.7204      0.3637327      0.1897404      0.9999900      0.7451846    
+Cons=                             -0.3329012E-05
+xt=                                146.7204      0.3637327      0.1897404      0.9999900      0.7451846    
+ft=                                6840.170    
+ft+sig=                            6840.170    
+Line search successful at iteration   0 with sigma=   1.000000    
+-----------------------------------------
+Iteration No.=                    28
+ObjFun Calls=                    340
+ObjFun Value f=                    6840.168    
+Parameter set=                     146.8401      0.3634102      0.1892144      0.9999900      0.7426122    
+Bound Index=                       0              0              0              0              0
+Sampling Scale h=                  49.95000      0.9500000E-01  0.4500000E-01  0.4999945E-01  0.4999945E-01
+Forward Jacoian sample point:      196.7901      0.3634102      0.1892144      0.9999900      0.7426122    
+Backward Jacobian sample Point:    96.89009      0.3634102      0.1892144      0.9999900      0.7426122    
+Jacobian matrix column:            1   7610.748       8372.895    
+Forward Jacoian sample point:      146.8401      0.4584102      0.1892144      0.9999900      0.7426122    
+Backward Jacobian sample Point:    146.8401      0.2684102      0.1892144      0.9999900      0.7426122    
+Jacobian matrix column:            2   6851.498       7037.365    
+Forward Jacoian sample point:      146.8401      0.3634102      0.2342144      0.9999900      0.7426122    
+Backward Jacobian sample Point:    146.8401      0.3634102      0.1442144      0.9999900      0.7426122    
+Jacobian matrix column:            3   6880.027       6881.686    
+Forward Jacoian sample point:      146.8401      0.3634102      0.1892144      0.9999900      0.7426122    
+Backward Jacobian sample Point:    146.8401      0.3634102      0.1892144      0.9499906      0.7426122    
+Jacobian matrix column:            4   6840.168       6908.291    
+Forward Jacoian sample point:      146.8401      0.3634102      0.1892144      0.9999900      0.7926117    
+Backward Jacobian sample Point:    146.8401      0.3634102      0.1892144      0.9999900      0.6926128    
+Jacobian matrix column:            5   6843.168       6843.807    
+Best objective function value f=   6840.168    
+Best parameter x=                  146.8401      0.3634102      0.1892144      0.9999900      0.7426122    
+Gradient g at parameter x=        -0.5838017      -327.0400      -18.44000      -996.4004      -9.321964    
+Hessian at x=                      0.8788830    
+                                    46.31912       25668.98    
+                                    66.84893       5950.963       40186.06    
+                                    0.000000       0.000000       0.000000       14643.13    
+                                   -8.487381      -1029.593       1539.640       0.000000       3981.231    
+Active set=                        0              0              0              3              0
+Truncated SV=                      42345.66       23653.52       3837.281      0.6922233    
+SVD delX=                         0.1970588      0.1314740E-01 -0.2082805E-02   0.000000      0.6967119E-02
+Projected delX=                   0.1970588      0.1314740E-01 -0.2082805E-02   0.000000      0.6967119E-02
+Projected xp=                      147.0371      0.3765576      0.1871316      0.9999900      0.7495794    
+Cons=                             -0.4441308E-03
+xt=                                147.0371      0.3765576      0.1871316      0.9999900      0.7495794    
+ft=                                6845.262    
+ft+sig=                            6845.262    
+xt=                                146.9583      0.3712986      0.1879647      0.9999900      0.7467925    
+ft=                                6842.396    
+ft+sig=                            6842.396    
+xt=                                146.9110      0.3681433      0.1884646      0.9999900      0.7451204    
+ft=                                6841.119    
+ft+sig=                            6841.119    
+xt=                                146.8827      0.3662500      0.1887645      0.9999900      0.7441171    
+ft=                                6840.572    
+ft+sig=                            6840.572    
+xt=                                146.8656      0.3651141      0.1889444      0.9999900      0.7435152    
+ft=                                6840.334    
+ft+sig=                            6840.334    
+Line search failed
+-----------------------------------------
+Iteration No.=                    29
+ObjFun Calls=                    355
+ObjFun Value f=                    6840.168    
+Parameter set=                     146.8401      0.3634102      0.1892144      0.9999900      0.7426122    
+Bound Index=                       0              0              0              0              0
+Sampling Scale h=                  4.995000      0.9500000E-02  0.4500000E-02  0.4999945E-02  0.4999945E-02
+Forward Jacoian sample point:      151.8351      0.3634102      0.1892144      0.9999900      0.7426122    
+Backward Jacobian sample Point:    141.8451      0.3634102      0.1892144      0.9999900      0.7426122    
+Jacobian matrix column:            1   6857.364       6857.580    
+Forward Jacoian sample point:      146.8401      0.3729102      0.1892144      0.9999900      0.7426122    
+Backward Jacobian sample Point:    146.8401      0.3539102      0.1892144      0.9999900      0.7426122    
+Jacobian matrix column:            2   6842.985       6843.236    
+Forward Jacoian sample point:      146.8401      0.3634102      0.1937144      0.9999900      0.7426122    
+Backward Jacobian sample Point:    146.8401      0.3634102      0.1847144      0.9999900      0.7426122    
+Jacobian matrix column:            3   6840.492       6840.658    
+Forward Jacoian sample point:      146.8401      0.3634102      0.1892144      0.9999900      0.7426122    
+Backward Jacobian sample Point:    146.8401      0.3634102      0.1892144      0.9949901      0.7426122    
+Jacobian matrix column:            4   6840.168       6845.636    
+Forward Jacoian sample point:      146.8401      0.3634102      0.1892144      0.9999900      0.7476122    
+Backward Jacobian sample Point:    146.8401      0.3634102      0.1892144      0.9999900      0.7376123    
+Jacobian matrix column:            5   6840.176       6840.227    
+Best objective function value f=   6840.168    
+Best parameter x=                  146.8401      0.3634102      0.1892144      0.9999900      0.7426122    
+Gradient g at parameter x=         0.1011062      0.7824522      -18.44000      -1057.159      -5.057401    
+Hessian at x=                       1.251945    
+                                    110.5769       37351.39    
+                                    73.04546       6074.953       40186.06    
+                                    0.000000       0.000000       0.000000       14551.33    
+                                   -10.04136      -1257.176       1544.627       0.000000       4025.604    
+Active set=                        0              0              0              3              0
+Truncated SV=                      45011.69       32662.70       3889.085      0.8275083    
+SVD delX=                        -0.1394845      0.3142855E-03  0.6355791E-03   0.000000      0.7626595E-03
+Projected delX=                  -0.1394845      0.3142855E-03  0.6355791E-03   0.000000      0.7626595E-03
+Projected xp=                      146.7006      0.3637245      0.1898499      0.9999900      0.7433749    
+Cons=                             -0.2943399E-05
+xt=                                146.7006      0.3637245      0.1898499      0.9999900      0.7433749    
+ft=                                6840.170    
+ft+sig=                            6840.170    
+xt=                                146.7564      0.3635988      0.1895957      0.9999900      0.7430698    
+ft=                                6840.165    
+ft+sig=                            6840.165    
+Line search successful at iteration   1 with sigma=  0.6000000    
+>>>>> RGN ended with termination code:  2
+      number of function calls:         367
+      cpu time (sec):                   11.138

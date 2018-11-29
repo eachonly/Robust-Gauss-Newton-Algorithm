@@ -1,0 +1,24 @@
+# makefile: calibrate hymod demo with RGN
+# reference calibration results for hymod demo is in 'rgnLog_ref.txt'
+# to compile using makefile with ifort
+# 1) make -f makefile.hymod_ifort
+# 2) ./hymod_demo.exe
+# to remove intermediate files
+# 1) make -f makefile.hymod_ifort clean
+FC= ifort
+objects= constantsMod.o rgn.o hymod.o hydroDataMod.o rgnMain_Hymod.o
+hymod_demo.exe: $(objects)
+	 $(FC) $(objects) -o hymod_demo.exe
+constantsMod.o: ../../SRC_RGN/constantsMod.f90
+	 $(FC) -c ../../SRC_RGN/constantsMod.f90
+rgn.o: ../../SRC_RGN/rgn.f90
+	 $(FC) -c ../../SRC_RGN/rgn.f90
+hymod.o: ../../SRC_DEMO/hymod/hymod.f90
+	 $(FC) -c ../../SRC_DEMO/hymod/hymod.f90
+hydroDataMod.o: ../../SRC_DEMO/hymod/hydroDataMod.f90
+	 $(FC) -c ../../SRC_DEMO/hymod/hydroDataMod.f90
+rgnMain_Hymod.o: ../../SRC_DEMO/hymod/rgnMain_Hymod.f90
+	 $(FC) -c ../../SRC_DEMO/hymod/rgnMain_Hymod.f90
+clean:
+	rm -f *.o
+	rm -f *.mod

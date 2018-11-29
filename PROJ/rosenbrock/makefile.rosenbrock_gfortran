@@ -1,0 +1,21 @@
+# makefile: calibrate rosenbrock demo function with RGN
+# reference calibration results for rosenbrock demo is in 'rgnLog_ref.txt'
+# to compile and run using makefile with gfortran
+# 1) make -f makefile.rosenbrock_gfortran
+# 2) ./rosenbrock_demo.exe
+# to remove intermediate files
+# 1) make -f makefile.rosenbrock_gfortran clean
+FC= gfortran
+objects= constantsMod.o rgn.o rgnMain_Rosenbrock.o
+fmt= -ffree-line-length-none
+rosenbrock_demo.exe: $(objects)
+	$(FC) $(objects) -o rosenbrock_demo.exe
+constantsMod.o: ../../SRC_RGN/constantsMod.f90
+	$(FC) $(fmt) -c ../../SRC_RGN/constantsMod.f90
+rgn.o: ../../SRC_RGN/rgn.f90
+	$(FC) $(fmt) -c ../../SRC_RGN/rgn.f90
+rgnMain_Rosenbrock.o: ../../SRC_DEMO/rosenbrock/rgnMain_Rosenbrock.f90
+	$(FC) $(fmt) -c ../../SRC_DEMO/rosenbrock/rgnMain_Rosenbrock.f90
+clean:
+	rm -f *.o
+	rm -f *.mod

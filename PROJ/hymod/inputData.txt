@@ -1,0 +1,8 @@
+ 5
+ "Maximum storage capacity"														1			1000  		400
+ "Degree of spatial variability of the soil moisture capacity"					0.1			2			0.5
+ "Factor disturbing the flow between slow and quick release reservoirs"			0.05		0.95		0.1
+ "Residence time of the slow release reservoir"									0.000001	0.99999 	0.2    
+ "Residence time of the quick release reservoirs"								0.000001	0.99999		0.1
+ "BassRiver.dat"				! Data file
+ 365                            ! Warm up periods in datas
