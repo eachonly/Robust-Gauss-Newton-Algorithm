@@ -713,7 +713,12 @@ END SUBROUTINE svdSolve
     a0 = a
     DO k = 1, n
        r(k,k) = Norm(a0(:,k))
+!       q(:,k) = a0(:,k) / r(k,k)
+       where(a0(:,k)/=0._rk)  !FIXME_DK: rough fix will need checks+refinement
        q(:,k) = a0(:,k) / r(k,k)
+       elsewhere
+        q(:,k) = 0._rk
+       endwhere             
        r(k,k+1:n) = MATMUL(q(:,k), a0(:,k+1:n))
        a0(:,k+1:n) = a0(:,k+1:n) - MATMUL(q(:,k:k), r(k:k,k+1:n))
     END DO
