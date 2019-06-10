@@ -178,6 +178,10 @@ SUBROUTINE rgn (objFunc, p, n, x0, xLo, xHi, cnv, x, info, error, message, decFi
    ! Allocate work arrays
       ALLOCATE (h(p), r(n), rBest(n), rl(n), rh(n), xl(p), xh(p), xBest(p), Ja(n,p), g(p), He(p,p), as(p), xScale(p), &
                 xp(p), xt(p), delX(p), xls(p), hLo(p), hHi(p), x0ldbest(p), fOptSeries(cnv%iterMax), delXAct(p),STAT=status)        
+      IF(status /=0) THEN
+        WRITE(*,*) "Error in Allocating vectors"
+        READ(*,*);STOP
+      END IF        
       IF (cnv%dumpResults >= 1) THEN
          OPEN (unit=99, file=cnv%logFile, status='unknown')
          WRITE(dfm(1),'(a,i4,a)') '(a,', p,'g15.7)'
@@ -334,7 +338,15 @@ SUBROUTINE rgn (objFunc, p, n, x0, xLo, xHi, cnv, x, info, error, message, decFi
    ! Solve normal equations after removing non-free parameters
          IF (cnv%dumpResults >= 2) WRITE(99,dfm(4)) 'Active set=                     ', as
          nr = SUM(MERGE(1_ik, 0_ik, as == BF))
-         ALLOCATE (HeRdc(nr,nr), delXRdc(nr), gRdc(nr), tsv(nr))
+         IF (ALLOCATED(HeRdc)) DEALLOCATE(HeRdc)
+         IF (ALLOCATED(delXRdc)) DEALLOCATE(delXRdc)
+         IF (ALLOCATED(gRdc)) DEALLOCATE(gRdc)
+         IF (ALLOCATED(tsv)) DEALLOCATE(tsv)
+         ALLOCATE (HeRdc(nr,nr), delXRdc(nr), gRdc(nr), tsv(nr),STAT=status)
+         IF(status /=0) THEN
+            WRITE(*,*) "Error in Allocating vectors"
+            READ(*,*);STOP
+         END IF 
          j = 0
          DO k = 1, p
             IF (as(k) == BF) THEN
@@ -479,6 +491,9 @@ SUBROUTINE rgn (objFunc, p, n, x0, xLo, xHi, cnv, x, info, error, message, decFi
          WRITE(99,'(a,f10.3)') '      cpu time (sec):               ', info%cpuTime
          CLOSE (unit=99)
       END IF
+   ! Deallocate the working array
+      DEALLOCATE (h, r, rBest, rl, rh, xl, xh, xBest, Ja, g, He, as, xScale, &
+                xp, xt, delX, xls, hLo, hHi, x0ldbest, fOptSeries, delXAct)        
       RETURN
    !
    ! Error states
